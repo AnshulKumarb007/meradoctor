@@ -1,0 +1,19 @@
+[23-Sep-2021 10:03:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/soitejql/meradoctor.live/admin/admin/include/send-mail.php:1) in /home3/soitejql/meradoctor.live/admin/admin/include/send-mail.php on line 126
+[23-Sep-2021 10:03:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/soitejql/meradoctor.live/admin/admin/include/send-mail.php:1) in /home3/soitejql/meradoctor.live/admin/admin/include/send-mail.php on line 126
+[23-Sep-2021 10:20:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/soitejql/meradoctor.live/admin/admin/include/send-mail.php:1) in /home3/soitejql/meradoctor.live/admin/admin/include/cls_docbooking.php on line 111
+[23-Sep-2021 10:24:58 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function send_mail(), 15 passed in /home3/soitejql/meradoctor.live/admin/admin/include/cls_docbooking.php on line 109 and exactly 16 expected in /home3/soitejql/meradoctor.live/admin/admin/include/send-mail.php:25
+Stack trace:
+#0 /home3/soitejql/meradoctor.live/admin/admin/include/cls_docbooking.php(109): send_mail('a', 'a', '9891364040', '9891364040', '25', '09/23/2021', 'test', 'test', '202100110', 1, 'Dr. Sandhya Sin...', 'Gynaecologist D...', '7250188413', '7250188413', 'Arar More Near ...')
+#1 /home3/soitejql/meradoctor.live/admin/admin/include/save.php(342): cls_booking->book_doc(Object(cls_booking))
+#2 {main}
+  thrown in /home3/soitejql/meradoctor.live/admin/admin/include/send-mail.php on line 25
+[23-Sep-2021 10:25:57 UTC] PHP Notice:  Undefined variable: dname in /home3/soitejql/meradoctor.live/admin/admin/include/send-mail.php on line 71
+[23-Sep-2021 10:25:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/soitejql/meradoctor.live/admin/admin/include/send-mail.php:1) in /home3/soitejql/meradoctor.live/admin/admin/include/send-mail.php on line 136
+[23-Sep-2021 10:25:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/soitejql/meradoctor.live/admin/admin/include/send-mail.php:1) in /home3/soitejql/meradoctor.live/admin/admin/include/cls_docbooking.php on line 111
+[14-Oct-2021 11:41:01 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function send_mail(), 3 passed in /home3/soitejql/meradoctor.live/admin/admin/include/cls_docbooking.php on line 103 and exactly 15 expected in /home3/soitejql/meradoctor.live/admin/admin/include/send-mail.php:18
+Stack trace:
+#0 /home3/soitejql/meradoctor.live/admin/admin/include/cls_docbooking.php(103): send_mail(1, Object(cls_booking), Object(cls_doctor))
+#1 /home3/soitejql/meradoctor.live/admin/admin/include/save.php(342): cls_booking->book_doc(Object(cls_booking))
+#2 {main}
+  thrown in /home3/soitejql/meradoctor.live/admin/admin/include/send-mail.php on line 18
+[14-Oct-2021 11:42:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/soitejql/meradoctor.live/admin/admin/include/send-mail.php:1) in /home3/soitejql/meradoctor.live/admin/admin/include/send-mail.php on line 138

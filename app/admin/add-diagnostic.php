@@ -1,0 +1,202 @@
+<?php 
+	include "header.php"; 
+  include "include/cls_diagnostic.php";
+  $a = new cls_dignostic();
+	if(type2){
+
+		if(isset($_GET['ediit'])){
+
+		  $sql="SELECT * FROM  `tbl_diagnostic` WHERE id=$_GET[ediit]";
+			$list=mysqli_fetch_assoc($conn->query($sql));
+			$a->id=$list['id'];
+      $a->dposition=$list['dposition'];
+      $a->dname=$list['dname'];
+      $a->cperson=$list['cperson'];
+      $a->tdetails=$list['tdetails'];
+      $a->establish=$list['establish'];
+      $a->mobile=$list['mobile'];
+      $a->address=$list['address']; 
+      $a->state=$list['state'];
+      $a->district=$list['district'];
+      $a->category=$list['category'];
+		}else{
+		    if($user_type==6){ $a->district=$district;}else{$a->dis=$district='';}
+		}
+?>
+  
+ 
+<main class="app-content">
+      <div class="app-title">
+        <div>
+          <h1><i class="fa fa-flask"> </i> Add Diagnostic</h1>
+        </div>       
+      </div>
+        
+ 
+            <div class="tile-body">
+         <div class="row">
+
+        <div class="col-md-7">
+          <div class="tile">
+            <h3 class="tile-title">Register Diagnostic</h3>
+            <hr/>
+            <div class="tile-body">
+              <form action="include/save.php" method="post" class="form-horizontal" enctype="multipart/form-data">
+                <input type="hidden" name="id" value="<?php echo !empty($a->id) ? $a->id :'';?>"   />
+              <div class="form-group row">
+                  <label class="control-label col-md-3">Pathlogy Position</label>
+                  <div class="col-md-8">
+                    <select class="form-control"  name="dposition" id="exampleSelect1">
+                    <option value="1"  <?php if($a->dposition=='1'){echo"selected='selected'";} ?>>Normal</option>
+                      <option value="2"  <?php if($a->dposition=='2'){echo"selected='selected'";} ?>>Premium</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+                  <label class="control-label col-md-3">Medical Store Name</label>
+                  <div class="col-md-8">
+                      <select name="category" class="form-control">
+                        <option value="">--Select Category--</option>
+                        <option <?php if($a->category=='Ultrasound'){echo"selected='selected'";} ?> value="Ultrasound">Ultrasound</option>
+                        <option <?php if($a->category=='Xray'){echo"selected='selected'";} ?> value="Xray">Xray</option>
+                        <option <?php if($a->category=='CT-Scan'){echo"selected='selected'";} ?> value="CT-Scan">CT-Scan</option> 
+                        <option <?php if($a->category=='MRI'){echo"selected='selected'";} ?> value="MRI">MRI</option> 
+                      </select>
+                  </div>
+                </div>
+             
+            <div class="form-group row">
+                  <label class="control-label col-md-3">Diagnostic Name</label>
+                  <div class="col-md-8">
+                    <input class="form-control" type="text" name="dname"  value="<?php echo !empty($a->dname) ? $a->dname :'';?>" placeholder="Enter full name">
+                  </div>
+                </div>
+                 <div class="form-group row">
+                  <label class="control-label col-md-3">Contact Person</label>
+                  <div class="col-md-8">
+                    <input class="form-control" type="text" name="cperson"  value="<?php echo !empty($a->cperson) ? $a->cperson :'';?>" placeholder="Contact Person">
+                  </div>
+                </div>
+ 			
+          
+				<div class="form-group row">
+                  <label class="control-label col-md-3">Test Details</label>
+                  <div class="col-md-8">
+                    <textarea class="form-control" name="tdetails" rows="4"   placeholder="Enter Test Details"><?php echo !empty($a->tdetails) ? $a->tdetails :'';?></textarea>
+                  </div>
+                </div>
+               <div class="form-group row">
+                  <label class="control-label col-md-3">Established in</label>
+                  <div class="col-md-8">
+	        <input class="form-control" type="text" name="establish"  value="<?php echo !empty($a->establish) ? $a->establish :'';?>" maxlength="4" placeholder="Established in">
+	      </div>
+                </div>
+        <div class="form-group row">
+	      <label class="control-label col-md-3">Mobile</label>
+	      <div class="col-md-8">
+	        <input class="form-control" type="text" name="mobile" maxlength="10"  value="<?php echo !empty($a->mobile) ? $a->mobile :'';?>" placeholder="Enter Mobile">
+	      </div>
+	    </div>
+                <div class="form-group row">
+                  <label class="control-label col-md-3">Address</label>
+                  <div class="col-md-8">
+                    <textarea class="form-control"  name="address" rows="4" placeholder="Enter your address"><?php echo !empty($a->address) ? $a->address :'';?></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group row">
+	             <label class="control-label col-md-3">State</label>
+	             <div class="col-md-8">
+            		<select name="state" id="statee" class="form-control"  >
+            			<option value="0">--Select State--</option>
+                         <?php 
+                         include"include/conn.php";
+                         $query =mysqli_query($conn,"SELECT * FROM state");
+                        while($row=mysqli_fetch_array($query))
+                        { 
+                            $id=$row['StCode'];
+                            if($row['StCode']==5){
+                                $selected="selected";
+                            }else{
+                                $selected="";
+                            }
+                            
+                           
+                        ?>
+                            <?php  if(isset($_GET['ediit'])){ ?>
+                            <option value="<?php echo $row['StCode'];?>" <?php if($a->state==$id){
+                                echo"selected='selected'"; }?>><?php echo $row['StateName'];?></option> <?php }else{  ?>
+                          
+                            <option value="<?php echo $row['StCode'];?>" <?=$selected; ?>><?php echo $row['StateName'];?></option> <?php  }}?>
+                       
+				</select>
+		    </div>
+		  </div>
+            
+            
+            <div class="form-group row">
+	             <label class="control-label col-md-3">District</label>
+	             <div class="col-md-8">
+            		<select id="inputState" name="district" class="form-control">
+            	        <option >--Select District--</option>
+            	        <option <?php if($a->district==71){echo"selected='selected'";} ?> value="71">Gopalganj</option>
+            	        <option <?php if($a->district==94){echo"selected='selected'";} ?> value="94">Siwan</option>
+      	        </select>
+		    </div>
+		  </div>
+
+                <?php if(isset($_GET['ediit'])){?>
+                <div class="form-group row">
+                  <label class="control-label col-md-3">Image</label>
+                  <div class="col-md-8">
+                       <input class="form-control" type="file" id="imgInp" name="image"><br/>
+                       <img id="blah"  src="dignostic-image/<?=$list['image'];?>"  width="100%" height="200px"/> 
+                  </div>
+                  
+                </div>
+                  <?php }else{ ?> 
+                    <div class="form-group row">
+                  <label class="control-label col-md-3">Image</label>
+                  <div class="col-md-8">
+                       <input class="form-control" type="file" id="imgInp" name="image"><br/>
+                       <img id="blah" src="#"  width="100%" height="200px"/> 
+                  </div>
+                  
+                </div>
+                <?php  } ?>
+                <div class="tile-footer">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-3">
+                  <button class="btn btn-primary" name="diagnostic" type="submit"><i class="fa fa-fw fa-lg fa-check-circle"></i>Save</button>&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary" href="#"><i class="fa fa-fw fa-lg fa-times-circle"></i>Cancel</a>
+                </div>
+              </div>
+            </div>
+
+              </form>
+            </div>
+          
+          </div>
+        </div>
+        <div class="clearix"></div>
+       
+      </div>
+  
+  	  </div> 
+</main>
+<?php 
+ 
+include "footer.php";
+}
+else{
+echo"<script>alert('You Are Not a Member');document.location='../index.php'</script>";
+}?>
+  
+  <script>
+          imgInp.onchange = evt => {
+          const [file] = imgInp.files
+          if (file) {
+          blah.src = URL.createObjectURL(file)
+          }
+          }
+     </script>

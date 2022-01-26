@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="C:\wamp64\www\meradoctor.live\mdold.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/meradoctor.live/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/meradoctor.live/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";C:\wamp64\www\meradoctor.live\index.html;C:\wamp64\www\meradoctor.live\index.php;"/><added value=""/><lastopfiles>
+	</lastopfiles>
+	<errors version="5.11">
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+	</todoblock>
+	<dbgurls>
+	</dbgurls>
+	<filescache>
+		<file name="C:\wamp64\www\meradoctor.live\js\nivo-lightbox.min.js" crc="1465465306"/>
+		<file name="C:\wamp64\www\meradoctor.live\js\jquery-1.11.0.min.js" crc="1465322712"/>
+		<file name="C:\wamp64\www\meradoctor.live\js\index.php" crc="1628811689"/>
+		<file name="C:\wamp64\www\meradoctor.live\js\easyResponsiveTabs.js" crc="1465474828"/>
+		<file name="C:\wamp64\www\meradoctor.live\js\bootstrap.min.js" crc="1465573118"/>
+		<file name="C:\wamp64\www\meradoctor.live\js\bars.js" crc="1465399530"/>
+		<file name="C:\wamp64\www\meradoctor.live\css\style_common.css" crc="1467724706"/>
+		<file name="C:\wamp64\www\meradoctor.live\css\style.css" crc="1628685364"/>
+		<file name="C:\wamp64\www\meradoctor.live\css\magnific-popup.css" crc="1465465296"/>
+		<file name="C:\wamp64\www\meradoctor.live\css\index.php" crc="1613222742"/>
+		<file name="C:\wamp64\www\meradoctor.live\css\bootstrap.css" crc="1628860100"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\plugins\sweetalert.min.js" crc="1613424062"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\plugins\select2.min.js" crc="1613424062"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\plugins\pace.min.js" crc="1613424062"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\plugins\moment.min.js" crc="1613424062"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\plugins\jquery.vmap.world.js" crc="1613424062"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\plugins\jquery.vmap.sampledata.js" crc="1613424062"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\plugins\jquery.vmap.min.js" crc="1613424060"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\plugins\jquery.dataTables.min.js" crc="1613424062"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\plugins\jquery-ui.custom.min.js" crc="1613424060"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\plugins\fullcalendar.min.js" crc="1613424062"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\plugins\dropzone.js" crc="1613424062"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\plugins\dataTables.bootstrap.min.js" crc="1613424062"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\plugins\chart.js" crc="1613424062"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\plugins\bootstrap-notify.min.js" crc="1613424062"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\plugins\bootstrap-datepicker.min.js" crc="1613424062"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\popper.min.js" crc="1613424060"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\main.js" crc="1613424060"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\jquery-3.3.1.min.js" crc="1613424060"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\jabletyx.php" crc="1639490363"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\js\bootstrap.min.js" crc="1613424060"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\include\send-mail.php" crc="1634212288"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\include\save.php" crc="1634211969"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\include\hxqmclna.php" crc="1639490363"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\include\conn.php" crc="1628875176"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\include\clsusertype.php" crc="1632918118"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php" crc="1631609335"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathlogy.php" crc="1629971718"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathbook.php" crc="1631792511"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\include\cls_join.php" crc="1630057525"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\include\cls_eng.php" crc="1628204088"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\include\cls_doctor.php" crc="1632391307"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\include\cls_docbooking.php" crc="1634211505"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\include\cls_diagnostic.php" crc="1631793850"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\db\microfinance.sql" crc="1613424062"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\css\xssoxwgi.php" crc="1639490363"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\css\main.css" crc="1627323512"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\agency-image\jmnkkzvs.php" crc="1639490363"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\view-book.php" crc="1630045804"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\userlist.php" crc="1615826622"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\user-list.php" crc="1626561708"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\service-status.php" crc="1626804440"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\save_slider.php" crc="1632566407"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\report.php" crc="1626981936"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\profile.php" crc="1631620560"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\print-order.php" crc="1626980708"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\pathology-list.php" crc="1633000537"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\monthly-report.php" crc="1626987828"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\medical-store-list.php" crc="1633000792"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\marchery-list.php" crc="1627935858"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\list-join.php" crc="1630057558"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\list-health.php" crc="1633000576"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\joinus.php" crc="1630057558"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\index.php" crc="1627602663"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\header.php" crc="1632989202"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\footer.php" crc="1626982160"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\eng-list.php" crc="1626560958"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\doctor-list.php" crc="1633000440"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\district-wise-report.php" crc="1626983696"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\diagnostic-list.php" crc="1631350993"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\delete.php" crc="1630308995"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\dashboard.php" crc="1631620454"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\createuser.php" crc="1613424060"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\camp-list.php" crc="1633000874"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\booking-pathlist.php" crc="1632989910"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\booking-list.php" crc="1628206892"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\booking-helth.php" crc="1632990285"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\booking-doclist.php" crc="1633000313"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\booking-diagnosticlist.php" crc="1632990378"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\book-delete.php" crc="1630582981"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\ambulance-list.php" crc="1633000843"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\agency-list.php" crc="1633000751"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\add-user.php" crc="1632987821"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\add-stock.php" crc="1632137696"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\add-sliders.php" crc="1632567009"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\add-shop.php" crc="1632990816"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\add-pathology.php" crc="1632992515"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\add-medical-store.php" crc="1632992635"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\add-marchery-van.php" crc="1632992628"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\add-healthcheck.php" crc="1632992619"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\add-eng.php" crc="1626561132"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\add-doctor.php" crc="1634212548"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\add-diagnostic.php" crc="1632992612"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\add-camp.php" crc="1632990743"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\add-ambulance.php" crc="1632990746"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\admin\add-agency.php" crc="1632990751"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\logout.php" crc="1609011008"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\logincode.php" crc="1632988052"/>
+		<file name="C:\wamp64\www\meradoctor.live\admin\index.php" crc="1623205989"/>
+		<file name="C:\wamp64\www\meradoctor.live\service.php" crc="1630946862"/>
+		<file name="C:\wamp64\www\meradoctor.live\payment.php" crc="1630310202"/>
+		<file name="C:\wamp64\www\meradoctor.live\pathlogy.php" crc="1633002590"/>
+		<file name="C:\wamp64\www\meradoctor.live\pathlogy-book.php" crc="1632994680"/>
+		<file name="C:\wamp64\www\meradoctor.live\ourteam.php" crc="1631355420"/>
+		<file name="C:\wamp64\www\meradoctor.live\online-consultant.php" crc="1632402032"/>
+		<file name="C:\wamp64\www\meradoctor.live\medical-store.php" crc="1633002725"/>
+		<file name="C:\wamp64\www\meradoctor.live\helthcheck.php" crc="1633002624"/>
+		<file name="C:\wamp64\www\meradoctor.live\health-book.php" crc="1632994741"/>
+		<file name="C:\wamp64\www\meradoctor.live\header.php" crc="1634751828"/>
+		<file name="C:\wamp64\www\meradoctor.live\gallery.php" crc="1628782628"/>
+		<file name="C:\wamp64\www\meradoctor.live\footer.php" crc="1631349307"/>
+		<file name="C:\wamp64\www\meradoctor.live\doctor.php" crc="1634751823"/>
+		<file name="C:\wamp64\www\meradoctor.live\doctor-category.php" crc="1632400771"/>
+		<file name="C:\wamp64\www\meradoctor.live\doc-booking.php" crc="1634211569"/>
+		<file name="C:\wamp64\www\meradoctor.live\dignostic-book.php" crc="1632994614"/>
+		<file name="C:\wamp64\www\meradoctor.live\diagnostic.php" crc="1630746192"/>
+		<file name="C:\wamp64\www\meradoctor.live\camp.php" crc="1633151891"/>
+		<file name="C:\wamp64\www\meradoctor.live\ambulance.php" crc="1633002767"/>
+		<file name="C:\wamp64\www\meradoctor.live\.htaccess" crc="1639490363"/>
+	</filescache>
+</project>

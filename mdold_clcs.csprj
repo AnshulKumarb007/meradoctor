@@ -1,0 +1,228 @@
+<codestructure version="5.15">
+<phptree>
+<treenode node="\057h\157m\1453\057s\157i\164e\152q\154/\155e\162a\144o\143t\157r\056l\151v\145/\141d\155i\156/\141d\155i\156/\0566\1441\1440\071c\061.\151c\157;PHP:PHP Include;C:\wamp64\www\meradoctor.live\css\index.php;f10;3;154;3;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="\057ho\155e3\057so\151te\152ql\057me\162ad\157ct\157r.\154iv\145/a\144mi\156/a\144mi\156/.\066d1\14409\1431.\151co;PHP:PHP Include;C:\wamp64\www\meradoctor.live\js\index.php;f10;3;124;3;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="\057home\063/soi\164ejql\057mera\144octo\162.liv\145/adm\151n/ad\155in/.\066d1d0\071c1.i\143o;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\index.php;f10;3;103;3;;C:\wamp64\www\meradoctor.live\admin\index.php;f10;3;103;3;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="admin/admin/include/conn.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\pathlogy.php;f33;115;61;115;;C:\wamp64\www\meradoctor.live\ourteam.php;f16;17;44;17;;C:\wamp64\www\meradoctor.live\medical-store.php;f33;109;61;109;;C:\wamp64\www\meradoctor.live\helthcheck.php;f33;114;61;114;;C:\wamp64\www\meradoctor.live\doctor.php;f9;2;37;2;;C:\wamp64\www\meradoctor.live\diagnostic.php;f33;114;61;114;;C:\wamp64\www\meradoctor.live\camp.php;f33;105;61;105;;C:\wamp64\www\meradoctor.live\ambulance.php;f33;108;61;108;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="admin/include/clsusertype.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\logincode.php;f8;2;37;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="admin/include/conn.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\logincode.php;f9;1;31;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="cls_diagnostic.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\include\save.php;f9;8;27;8;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="cls_docbooking.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\include\save.php;f9;6;27;6;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="cls_doctor.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\include\save.php;f9;3;23;3;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="cls_join.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\include\save.php;f9;10;21;10;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="cls_pathbook.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\include\save.php;f9;7;25;7;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="cls_pathlogy.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\include\save.php;f9;5;25;5;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="cls_show.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\include\save.php;f9;9;21;9;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="clsusertype.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\include\save.php;f9;4;24;4;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="footer.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\view-book.php;f9;182;19;182;;C:\wamp64\www\meradoctor.live\admin\admin\userlist.php;f15;86;25;86;;C:\wamp64\www\meradoctor.live\admin\admin\user-list.php;f15;66;25;66;;C:\wamp64\www\meradoctor.live\admin\admin\report.php;f15;87;25;87;;C:\wamp64\www\meradoctor.live\admin\admin\profile.php;f16;23;26;23;;C:\wamp64\www\meradoctor.live\admin\admin\pathology-list.php;f15;68;25;68;;C:\wamp64\www\meradoctor.live\admin\admin\monthly-report.php;f15;140;25;140;;C:\wamp64\www\meradoctor.live\admin\admin\medical-store-list.php;f15;66;25;66;;C:\wamp64\www\meradoctor.live\admin\admin\marchery-list.php;f15;43;25;43;;C:\wamp64\www\meradoctor.live\admin\admin\list-join.php;f15;60;25;60;;C:\wamp64\www\meradoctor.live\admin\admin\list-health.php;f15;68;25;68;;C:\wamp64\www\meradoctor.live\admin\admin\joinus.php;f15;97;25;97;;C:\wamp64\www\meradoctor.live\admin\admin\eng-list.php;f15;66;25;66;;C:\wamp64\www\meradoctor.live\admin\admin\doctor-list.php;f15;166;25;166;;C:\wamp64\www\meradoctor.live\admin\admin\district-wise-report.php;f15;131;25;131;;C:\wamp64\www\meradoctor.live\admin\admin\diagnostic-list.php;f15;64;25;64;;C:\wamp64\www\meradoctor.live\admin\admin\dashboard.php;f16;39;26;39;;C:\wamp64\www\meradoctor.live\admin\admin\createuser.php;f15;200;25;200;;C:\wamp64\www\meradoctor.live\admin\admin\camp-list.php;f15;65;25;65;;C:\wamp64\www\meradoctor.live\admin\admin\booking-pathlist.php;f15;64;25;64;;C:\wamp64\www\meradoctor.live\admin\admin\booking-list.php;f15;58;25;58;;C:\wamp64\www\meradoctor.live\admin\admin\booking-helth.php;f15;67;25;67;;C:\wamp64\www\meradoctor.live\admin\admin\booking-doclist.php;f15;78;25;78;;C:\wamp64\www\meradoctor.live\admin\admin\booking-diagnosticlist.php;f15;64;25;64;;C:\wamp64\www\meradoctor.live\admin\admin\ambulance-list.php;f15;64;25;64;;C:\wamp64\www\meradoctor.live\admin\admin\agency-list.php;f15;74;25;74;;C:\wamp64\www\meradoctor.live\admin\admin\add-user.php;f9;133;19;133;;C:\wamp64\www\meradoctor.live\admin\admin\add-stock.php;f19;85;29;85;;C:\wamp64\www\meradoctor.live\admin\admin\add-sliders.php;f9;107;19;107;;C:\wamp64\www\meradoctor.live\admin\admin\add-shop.php;f9;225;19;225;;C:\wamp64\www\meradoctor.live\admin\admin\add-pathology.php;f9;198;19;198;;C:\wamp64\www\meradoctor.live\admin\admin\add-medical-store.php;f9;99;19;99;;C:\wamp64\www\meradoctor.live\admin\admin\add-marchery-van.php;f9;99;19;99;;C:\wamp64\www\meradoctor.live\admin\admin\add-healthcheck.php;f9;199;19;199;;C:\wamp64\www\meradoctor.live\admin\admin\add-eng.php;f9;128;19;128;;C:\wamp64\www\meradoctor.live\admin\admin\add-doctor.php;f9;597;19;597;;C:\wamp64\www\meradoctor.live\admin\admin\add-diagnostic.php;f9;188;19;188;;C:\wamp64\www\meradoctor.live\admin\admin\add-camp.php;f9;235;19;235;;C:\wamp64\www\meradoctor.live\admin\admin\add-ambulance.php;f9;180;19;180;;C:\wamp64\www\meradoctor.live\admin\admin\add-agency.php;f9;232;19;232;;C:\wamp64\www\meradoctor.live\service.php;f15;76;25;76;;C:\wamp64\www\meradoctor.live\payment.php;f15;17;25;17;;C:\wamp64\www\meradoctor.live\pathlogy.php;f15;259;25;259;;C:\wamp64\www\meradoctor.live\pathlogy-book.php;f15;79;25;79;;C:\wamp64\www\meradoctor.live\ourteam.php;f15;49;25;49;;C:\wamp64\www\meradoctor.live\medical-store.php;f15;251;25;251;;C:\wamp64\www\meradoctor.live\helthcheck.php;f15;255;25;255;;C:\wamp64\www\meradoctor.live\health-book.php;f15;78;25;78;;C:\wamp64\www\meradoctor.live\gallery.php;f15;142;25;142;;C:\wamp64\www\meradoctor.live\doctor.php;f15;419;25;419;;C:\wamp64\www\meradoctor.live\doctor-category.php;f9;20;19;20;;C:\wamp64\www\meradoctor.live\doc-booking.php;f15;188;25;188;;C:\wamp64\www\meradoctor.live\dignostic-book.php;f15;78;25;78;;C:\wamp64\www\meradoctor.live\diagnostic.php;f15;189;25;189;;C:\wamp64\www\meradoctor.live\camp.php;f15;194;25;194;;C:\wamp64\www\meradoctor.live\ambulance.php;f15;249;25;249;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="header.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\view-book.php;f10;1;20;1;;C:\wamp64\www\meradoctor.live\admin\admin\userlist.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\user-list.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\report.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\profile.php;f14;0;24;0;;C:\wamp64\www\meradoctor.live\admin\admin\pathology-list.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\monthly-report.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\medical-store-list.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\marchery-list.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\list-join.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\list-health.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\joinus.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\eng-list.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\doctor-list.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\district-wise-report.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\diagnostic-list.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\dashboard.php;f14;0;24;0;;C:\wamp64\www\meradoctor.live\admin\admin\createuser.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\camp-list.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\booking-pathlist.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\booking-list.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\booking-helth.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\booking-doclist.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\booking-diagnosticlist.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\ambulance-list.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\agency-list.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\add-user.php;f10;1;20;1;;C:\wamp64\www\meradoctor.live\admin\admin\add-stock.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\admin\admin\add-sliders.php;f10;1;20;1;;C:\wamp64\www\meradoctor.live\admin\admin\add-shop.php;f10;1;20;1;;C:\wamp64\www\meradoctor.live\admin\admin\add-pathology.php;f10;1;20;1;;C:\wamp64\www\meradoctor.live\admin\admin\add-medical-store.php;f10;1;20;1;;C:\wamp64\www\meradoctor.live\admin\admin\add-marchery-van.php;f10;1;20;1;;C:\wamp64\www\meradoctor.live\admin\admin\add-healthcheck.php;f10;1;20;1;;C:\wamp64\www\meradoctor.live\admin\admin\add-eng.php;f10;1;20;1;;C:\wamp64\www\meradoctor.live\admin\admin\add-doctor.php;f10;2;20;2;;C:\wamp64\www\meradoctor.live\admin\admin\add-diagnostic.php;f10;1;20;1;;C:\wamp64\www\meradoctor.live\admin\admin\add-camp.php;f10;1;20;1;;C:\wamp64\www\meradoctor.live\admin\admin\add-ambulance.php;f10;1;20;1;;C:\wamp64\www\meradoctor.live\admin\admin\add-agency.php;f10;1;20;1;;C:\wamp64\www\meradoctor.live\service.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\payment.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\pathlogy.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\pathlogy-book.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\ourteam.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\online-consultant.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\medical-store.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\helthcheck.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\health-book.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\gallery.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\doctor.php;f9;1;19;1;;C:\wamp64\www\meradoctor.live\doctor-category.php;f9;2;19;2;;C:\wamp64\www\meradoctor.live\doc-booking.php;f9;2;19;2;;C:\wamp64\www\meradoctor.live\dignostic-book.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\diagnostic.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\camp.php;f15;0;25;0;;C:\wamp64\www\meradoctor.live\ambulance.php;f15;0;25;0;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="include/cls_diagnostic.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\add-diagnostic.php;f11;2;37;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="include/cls_doctor.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\add-doctor.php;f10;4;32;4;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="include/cls_eng.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\add-eng.php;f11;2;30;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="include/cls_pathlogy.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\add-pathology.php;f10;2;34;2;;C:\wamp64\www\meradoctor.live\admin\admin\add-healthcheck.php;f10;2;34;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="include/cls_service.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\add-medical-store.php;f10;2;33;2;;C:\wamp64\www\meradoctor.live\admin\admin\add-marchery-van.php;f10;2;33;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="include/cls_show.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\add-shop.php;f13;2;33;2;;C:\wamp64\www\meradoctor.live\admin\admin\add-camp.php;f13;2;33;2;;C:\wamp64\www\meradoctor.live\admin\admin\add-ambulance.php;f13;2;33;2;;C:\wamp64\www\meradoctor.live\admin\admin\add-agency.php;f13;2;33;2;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="include/cls_stock.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\add-stock.php;f9;1;30;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="include/clsusertype.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\header.php;f8;1;31;1;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="include/conn.php;PHP:PHP Include;C:\wamp64\www\meradoctor.live\admin\admin\service-status.php;f9;1;25;1;;C:\wamp64\www\meradoctor.live\admin\admin\save_slider.php;f14;2;30;2;;C:\wamp64\www\meradoctor.live\admin\admin\header.php;f8;2;24;2;;C:\wamp64\www\meradoctor.live\admin\admin\delete.php;f9;3;25;3;;C:\wamp64\www\meradoctor.live\admin\admin\book-delete.php;f9;3;25;3;;C:\wamp64\www\meradoctor.live\admin\admin\add-shop.php;f33;132;49;132;;C:\wamp64\www\meradoctor.live\admin\admin\add-pathology.php;f33;122;49;122;;C:\wamp64\www\meradoctor.live\admin\admin\add-healthcheck.php;f33;123;49;123;;C:\wamp64\www\meradoctor.live\admin\admin\add-doctor.php;f33;429;49;429;;C:\wamp64\www\meradoctor.live\admin\admin\add-diagnostic.php;f33;113;49;113;;C:\wamp64\www\meradoctor.live\admin\admin\add-camp.php;f33;151;49;151;;C:\wamp64\www\meradoctor.live\admin\admin\add-ambulance.php;f33;96;49;96;;C:\wamp64\www\meradoctor.live\admin\admin\add-agency.php;f33;130;49;130;;;;vpos;;v;;a;;r;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="type1;PHP:PHP Word;C:\wamp64\www\meradoctor.live\admin\admin\header.php;f8;24;13;24;;;;vpos;;v;;a;;r$user_type==1 ||$user_type==6;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="type2;PHP:PHP Word;C:\wamp64\www\meradoctor.live\admin\admin\header.php;f8;25;13;25;;;;vpos;;v;;a;;r$user_type==1||$user_type==2 ||$user_type==6;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="type3;PHP:PHP Word;C:\wamp64\www\meradoctor.live\admin\admin\header.php;f8;26;13;26;;;;vpos;;v;;a;;r$user_type==1||$user_type==2 || $user_type==3 ||  $user_type==4 || $user_type==5 ||$user_type==6;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="type4;PHP:PHP Word;C:\wamp64\www\meradoctor.live\admin\admin\header.php;f8;27;13;27;;;;vpos;;v;;a;;r$user_type==1||$user_type==2 || $user_type==3 || $user_type==4 || $user_type==5 ||$user_type==6;;d-1,-1;;b0,0;;m0;;e">
+</treenode>
+<treenode node="cls_amb;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f4;141;9;203;;;;vpos;;v;;a;;r;;d17,141;;b0,0;;m0;;e">
+<treenode node="add;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f15;155;9;172;;;;vpos;;v;;a;;r;;d40,155;;b1,0;;m0;;es;;p">
+</treenode>
+<treenode node="update;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f15;175;9;199;;;;vpos;;v;;a;;r;;d42,175;;b1,0;;m0;;es;;p">
+</treenode>
+</treenode>
+<treenode node="cls_booking;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_docbooking.php;f0;1;1;136;;;;vpos;;v;;a;;r;;d17,1;;b0,0;;m0;;e">
+<treenode node="book_doc;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_docbooking.php;f8;72;5;112;;;;vpos;;v;;a;;r;;d41,72;;b1,0;;m0;;eb;;p">
+</treenode>
+<treenode node="gen_bookingid;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_docbooking.php;f11;18;1;34;;;;vpos;;v;;a;;r;;d35,18;;b1,0;;m0;;e">
+</treenode>
+<treenode node="return_docname;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_docbooking.php;f10;38;1;66;;;;vpos;;v;;a;;r;;d41,38;;b1,0;;m0;;edocid;;p">
+</treenode>
+<treenode node="update_doc;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_docbooking.php;f11;116;5;130;;;;vpos;;v;;a;;r;;d46,116;;b1,0;;m0;;eb;;p">
+</treenode>
+</treenode>
+<treenode node="cls_camp;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f8;209;13;275;;;;vpos;;v;;a;;r;;d22,209;;b0,0;;m0;;e">
+<treenode node="add;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f19;229;13;246;;;;vpos;;v;;a;;r;;d45,229;;b1,0;;m0;;es;;p">
+</treenode>
+<treenode node="update;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f19;249;13;271;;;;vpos;;v;;a;;r;;d47,249;;b1,0;;m0;;es;;p">
+</treenode>
+</treenode>
+<treenode node="cls_ddbooking;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_diagnostic.php;f0;82;1;153;;;;vpos;;v;;a;;r;;d19,82;;b0,0;;m0;;e">
+<treenode node="book_doc;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_diagnostic.php;f11;116;5;141;;;;vpos;;v;;a;;r;;d46,116;;b1,0;;m0;;eb;;p">
+</treenode>
+<treenode node="gen_bookingid;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_diagnostic.php;f11;96;1;104;;;;vpos;;v;;a;;r;;d35,96;;b1,0;;m0;;e">
+</treenode>
+<treenode node="return_dig;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_diagnostic.php;f7;106;1;113;;;;vpos;;v;;a;;r;;d32,106;;b1,0;;m0;;edig;;p">
+</treenode>
+<treenode node="update_doc;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_diagnostic.php;f11;143;5;150;;;;vpos;;v;;a;;r;;d48,143;;b1,0;;m0;;eb;;p">
+</treenode>
+</treenode>
+<treenode node="cls_dignostic;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_diagnostic.php;f0;2;1;78;;;;vpos;;v;;a;;r;;d19,2;;b0,0;;m0;;e">
+<treenode node="dignosticsave;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_diagnostic.php;f11;18;5;46;;;;vpos;;v;;a;;r;;d51,18;;b1,0;;m0;;eb;;p">
+</treenode>
+<treenode node="update_dignostic;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_diagnostic.php;f11;48;4;75;;;;vpos;;v;;a;;r;;d54,48;;b1,0;;m0;;eb;;p">
+</treenode>
+</treenode>
+<treenode node="cls_doctor;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_doctor.php;f1;4;2;146;;;;vpos;;v;;a;;r;;d17,4;;b0,0;;m0;;e">
+<treenode node="addoctor;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_doctor.php;f9;64;2;100;;;;vpos;;v;;a;;r;;d42,64;;b1,0;;m0;;es;;p">
+</treenode>
+<treenode node="update_doctor;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_doctor.php;f8;104;2;144;;;;vpos;;v;;a;;r;;d46,104;;b1,0;;m0;;eS;;p">
+</treenode>
+</treenode>
+<treenode node="cls_eng;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_eng.php;f0;2;1;35;;;;vpos;;v;;a;;r;;d13,2;;b0,0;;m0;;e">
+<treenode node="eng;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_eng.php;f11;12;5;20;;;;vpos;;v;;a;;r;;d35,12;;b1,0;;m0;;eb;;p">
+</treenode>
+<treenode node="update_eng;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_eng.php;f11;23;5;32;;;;vpos;;v;;a;;r;;d42,23;;b1,0;;m0;;eb;;p">
+</treenode>
+</treenode>
+<treenode node="cls_hbooking;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathbook.php;f0;82;1;159;;;;vpos;;v;;a;;r;;d18,82;;b0,0;;m0;;e">
+<treenode node="book_doc;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathbook.php;f9;119;3;147;;;;vpos;;v;;a;;r;;d43,119;;b1,0;;m0;;eb;;p">
+</treenode>
+<treenode node="gen_bookingid;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathbook.php;f9;96;1;104;;;;vpos;;v;;a;;r;;d33,96;;b1,0;;m0;;e">
+</treenode>
+<treenode node="return_hbooking;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathbook.php;f8;107;1;114;;;;vpos;;v;;a;;r;;d38,107;;b1,0;;m0;;ehid;;p">
+</treenode>
+<treenode node="update_doc;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathbook.php;f9;149;3;156;;;;vpos;;v;;a;;r;;d45,149;;b1,0;;m0;;eb;;p">
+</treenode>
+</treenode>
+<treenode node="cls_healthcheck;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathlogy.php;f0;83;1;162;;;;vpos;;v;;a;;r;;d21,83;;b0,0;;m0;;e">
+<treenode node="healthcheckup;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathlogy.php;f11;100;5;129;;;;vpos;;v;;a;;r;;d53,100;;b1,0;;m0;;eb;;p">
+</treenode>
+<treenode node="update_healthcheckup;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathlogy.php;f11;134;4;159;;;;vpos;;v;;a;;r;;d60,134;;b1,0;;m0;;eb;;p">
+</treenode>
+</treenode>
+<treenode node="cls_join;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_join.php;f0;2;1;35;;;;vpos;;v;;a;;r;;d15,2;;b0,0;;m0;;e">
+<treenode node="add;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_join.php;f11;18;5;31;;;;vpos;;v;;a;;r;;d36,18;;b1,0;;m0;;ec;;p">
+</treenode>
+</treenode>
+<treenode node="cls_magency;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f0;70;5;134;;;;vpos;;v;;a;;r;;d17,70;;b0,0;;m0;;e">
+<treenode node="add;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f11;88;5;105;;;;vpos;;v;;a;;r;;d40,88;;b1,0;;m0;;es;;p">
+</treenode>
+<treenode node="update;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f11;108;5;130;;;;vpos;;v;;a;;r;;d42,108;;b1,0;;m0;;es;;p">
+</treenode>
+</treenode>
+<treenode node="cls_pathlogy;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathlogy.php;f0;2;1;76;;;;vpos;;v;;a;;r;;d18,2;;b0,0;;m0;;e">
+<treenode node="pathlogysave;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathlogy.php;f11;18;5;46;;;;vpos;;v;;a;;r;;d49,18;;b1,0;;m0;;eb;;p">
+</treenode>
+<treenode node="update_pathlogy;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathlogy.php;f11;48;4;73;;;;vpos;;v;;a;;r;;d52,48;;b1,0;;m0;;eb;;p">
+</treenode>
+</treenode>
+<treenode node="cls_pbooking;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathbook.php;f0;2;1;74;;;;vpos;;v;;a;;r;;d18,2;;b0,0;;m0;;e">
+<treenode node="book_doc;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathbook.php;f11;36;5;62;;;;vpos;;v;;a;;r;;d45,36;;b1,0;;m0;;eb;;p">
+</treenode>
+<treenode node="gen_bookingid;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathbook.php;f11;16;1;24;;;;vpos;;v;;a;;r;;d35,16;;b1,0;;m0;;e">
+</treenode>
+<treenode node="return_path;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathbook.php;f8;26;1;33;;;;vpos;;v;;a;;r;;d35,26;;b1,0;;m0;;epath;;p">
+</treenode>
+<treenode node="update_doc;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_pathbook.php;f11;64;5;71;;;;vpos;;v;;a;;r;;d47,64;;b1,0;;m0;;eb;;p">
+</treenode>
+</treenode>
+<treenode node="cls_shop;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f0;1;1;62;;;;vpos;;v;;a;;r;;d14,1;;b0,0;;m0;;e">
+<treenode node="add;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f7;16;1;33;;;;vpos;;v;;a;;r;;d33,16;;b1,0;;m0;;es;;p">
+</treenode>
+<treenode node="update;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f7;36;1;58;;;;vpos;;v;;a;;r;;d35,36;;b1,0;;m0;;es;;p">
+</treenode>
+</treenode>
+<treenode node="clsusertype;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\clsusertype.php;f0;2;1;42;;;;vpos;;v;;a;;r;;d17,2;;b0,0;;m0;;e">
+<treenode node="Add_user;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\clsusertype.php;f7;19;1;31;;;;vpos;;v;;a;;r;;d40,19;;b1,0;;m0;;eu;;p">
+</treenode>
+<treenode node="update_add;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\clsusertype.php;f7;34;1;39;;;;vpos;;v;;a;;r;;d42,34;;b1,0;;m0;;eu;;p">
+</treenode>
+</treenode>
+<treenode node="ifuedytqh;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\add-doctor.php;f1795;0;2719;0;;;;vpos;;v;;a;;r;;d1810,0;;b0,0;;m0;;e">
+<treenode node="__construct;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\add-doctor.php;f1892;0;2403;0;;;;vpos;;v;;a;;r;;d1914,0;;b1,0;;m0;;e">
+</treenode>
+<treenode node="__destruct;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\add-doctor.php;f2410;0;2448;0;;;;vpos;;v;;a;;r;;d2431,0;;b1,0;;m0;;e">
+</treenode>
+<treenode node="qzkzl;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\add-doctor.php;f2456;0;2718;0;;;;vpos;;v;;a;;r;;d2472,0;;b3,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="lrjpv;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\header.php;f418;0;1321;0;;;;vpos;;v;;a;;r;;d429,0;;b0,0;;m0;;e">
+<treenode node="__construct;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\header.php;f516;0;1006;0;;;;vpos;;v;;a;;r;;d538,0;;b1,0;;m0;;e">
+</treenode>
+<treenode node="__destruct;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\header.php;f1013;0;1052;0;;;;vpos;;v;;a;;r;;d1034,0;;b1,0;;m0;;e">
+</treenode>
+<treenode node="goford;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\header.php;f1060;0;1320;0;;;;vpos;;v;;a;;r;;d1077,0;;b3,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="qrqvufnh;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\add-doctor.php;f421;0;1327;0;;;;vpos;;v;;a;;r;;d435,0;;b0,0;;m0;;e">
+<treenode node="__construct;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\add-doctor.php;f517;0;1000;0;;;;vpos;;v;;a;;r;;d539,0;;b1,0;;m0;;e">
+</treenode>
+<treenode node="__destruct;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\add-doctor.php;f1007;0;1045;0;;;;vpos;;v;;a;;r;;d1028,0;;b1,0;;m0;;e">
+</treenode>
+<treenode node="skhfu;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\add-doctor.php;f1053;0;1326;0;;;;vpos;;v;;a;;r;;d1069,0;;b3,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="wzmuno;PHP:Class Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f419;0;1324;0;;;;vpos;;v;;a;;r;;d431,0;;b0,0;;m0;;e">
+<treenode node="__construct;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f514;0;998;0;;;;vpos;;v;;a;;r;;d536,0;;b1,0;;m0;;e">
+</treenode>
+<treenode node="__destruct;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f1005;0;1048;0;;;;vpos;;v;;a;;r;;d1026,0;;b1,0;;m0;;e">
+</treenode>
+<treenode node="zwyexsotej;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\cls_show.php;f1056;0;1323;0;;;;vpos;;v;;a;;r;;d1077,0;;b3,0;;m0;;e">
+</treenode>
+</treenode>
+<treenode node="a1;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\agency-image\jmnkkzvs.php;f0;1;144;1;;;;vpos;;v;;a;;r;;d16,1;;b0,0;;m0;;ek2;;p">
+</treenode>
+<treenode node="a9;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\agency-image\jmnkkzvs.php;f1065;1;1239;1;;;;vpos;;v;;a;;r;;d1087,1;;b0,0;;m0;;ev6;;pt12;;p">
+</treenode>
+<treenode node="c8;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\agency-image\jmnkkzvs.php;f906;1;1011;1;;;;vpos;;v;;a;;r;;d934,1;;b0,0;;m0;;ev6;;po14;;pb10;;p">
+</treenode>
+<treenode node="encoder;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\css\xssoxwgi.php;f8;9;9;13;;;;vpos;;v;;a;;r;;d8,10;;b0,0;;m0;;eval;;pindex;;psession_key;;p">
+</treenode>
+<treenode node="h7;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\agency-image\jmnkkzvs.php;f1011;1;1065;1;;;;vpos;;v;;a;;r;;d1033,1;;b0,0;;m0;;ev6;;pt12;;p">
+</treenode>
+<treenode node="i1;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\hxqmclna.php;f0;1;143;1;;;;vpos;;v;;a;;r;;d16,1;;b0,0;;m0;;ec2;;p">
+</treenode>
+<treenode node="listdirs;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\css\xssoxwgi.php;f16;29;17;42;;;;vpos;;v;;a;;r;;d16,30;;b0,0;;m0;;edir;;p">
+</treenode>
+<treenode node="m8;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\js\jabletyx.php;f920;1;1025;1;;;;vpos;;v;;a;;r;;d948,1;;b0,0;;m0;;eu6;;pl14;;pq10;;p">
+</treenode>
+<treenode node="m9;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\hxqmclna.php;f1077;1;1251;1;;;;vpos;;v;;a;;r;;d1099,1;;b0,0;;m0;;em6;;ph12;;p">
+</treenode>
+<treenode node="p7;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\js\jabletyx.php;f1025;1;1079;1;;;;vpos;;v;;a;;r;;d1047,1;;b0,0;;m0;;eu6;;pk12;;p">
+</treenode>
+<treenode node="p9;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\js\jabletyx.php;f1079;1;1253;1;;;;vpos;;v;;a;;r;;d1101,1;;b0,0;;m0;;eu6;;pk12;;p">
+</treenode>
+<treenode node="send_mail;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\send-mail.php;f0;24;1;144;;;;vpos;;v;;a;;r;;d0,25;;b0,0;;m0;;ecategory_mail;;pb;;pd;;p">
+</treenode>
+<treenode node="v1;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\js\jabletyx.php;f0;1;143;1;;;;vpos;;v;;a;;r;;d16,1;;b0,0;;m0;;eb2;;p">
+</treenode>
+<treenode node="w7;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\hxqmclna.php;f1023;1;1077;1;;;;vpos;;v;;a;;r;;d1045,1;;b0,0;;m0;;em6;;ph12;;p">
+</treenode>
+<treenode node="y8;PHP:Function Name;C:\wamp64\www\meradoctor.live\admin\admin\include\hxqmclna.php;f918;1;1023;1;;;;vpos;;v;;a;;r;;d946,1;;b0,0;;m0;;em6;;px14;;pu10;;p">
+</treenode>
+</phptree>
+</codestructure>
