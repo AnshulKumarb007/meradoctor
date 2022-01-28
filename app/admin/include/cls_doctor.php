@@ -35,7 +35,8 @@
      public $state;
 
      public $dis;
-
+	 
+	 public $iconid;
 
 
 
@@ -78,7 +79,7 @@
 
 
 
-		   $sql="INSERT INTO `tbl_doctor`(`dname`, `gender`, `dcategory`, `dposition`, `exp`, `ddetails`, `email`, `mobile`,`staffmobile`, `address`,`fee`,`image`,`timeing`,`state`,`dis`) VALUES ('$s->dname','$s->gender','$s->dcategory','$s->dposition','$s->exp','$s->ddetails','$s->email','$s->mobile','$s->staffmobile','$s->address',$s->fee,'$image','$s->timeing','$s->state','$s->dis')"; 
+		   $sql="INSERT INTO `tbl_doctor`(`dname`, `gender`, `dcategory`, `dposition`, `exp`, `ddetails`, `email`, `mobile`,`staffmobile`, `address`,`fee`,`image`,`timeing`,`state`,`dis`) VALUES ('$s->dname','$s->gender','$s->dcategory','$s->dposition','$s->exp','$s->ddetails','$s->email','$s->mobile','$s->staffmobile','$s->address',$s->fee,'$image','$s->timeing','$s->state','$s->dis',$s->iconid)"; 
 
 			if($conn->query($sql)==TRUE){	
 
@@ -116,7 +117,7 @@
 		$image=$row['Image'];
 
          
-		    $sql="UPDATE `tbl_doctor` SET `dname`='$S->dname',`gender`='$S->gender',`dcategory`='$S->dcategory',`dposition`='$S->dposition',`exp`='$S->exp',`ddetails`='$S->ddetails',`email`='$S->email',`mobile`='$S->mobile',staffmobile='$S->staffmobile',`address`='$S->address',`fee`=$S->fee, `image`='$image' ,`timeing`='$S->timeing',`state`='$S->state',`dis`='$S->dis' WHERE id=$id";
+		    $sql="UPDATE `tbl_doctor` SET `dname`='$S->dname',`gender`='$S->gender',`dcategory`='$S->dcategory',`dposition`='$S->dposition',`exp`='$S->exp',`ddetails`='$S->ddetails',`email`='$S->email',`mobile`='$S->mobile',staffmobile='$S->staffmobile',`address`='$S->address',`fee`=$S->fee, `image`='$image' ,`timeing`='$S->timeing',`state`='$S->state',`dis`='$S->dis','iconid'=$S->iconid WHERE id=$id";
 
 	        
 

@@ -9,11 +9,95 @@ include "cls_pathbook.php";
 include "cls_diagnostic.php";
 include "cls_show.php";
 include "cls_join.php";
+include 'cls.php';
+extract($_POST);	
+ /** SAVE CATEGORY **/
+ function upload_Doc_Photo(){
+		$docphoto="";
+		$imgFile = $_FILES['photo']['name'];
+		$tmp_dir = $_FILES['photo']['tmp_name'];
+		$imgSize = $_FILES['photo']['size'];
+		if(!empty($imgFile)){
+			$upload_dir = '../caticon/'; // upload directory
 
- extract($_POST);
+$imgExt = strtolower(pathinfo($imgFile,PATHINFO_EXTENSION)); // get image extension
+// valid image extensions
+$valid_extensions = array('jpeg', 'jpg', 'png', 'gif'); // valid extensions
+// rename uploading image
+$t=time();
+$userpic = date("Ymd",$t).rand(1000,1000000).".".$imgExt;
+// allow valid image file formats
+if(in_array($imgExt, $valid_extensions)){   
+// Check file size '5MB'
+	if($imgSize < 1000000){		
+	 move_uploaded_file($tmp_dir,$upload_dir.$userpic);
+	 $docphoto=$userpic;
+	}
+	else{
+	 $errMSG = "Sorry, your file is too large.";
+	}
+}
+else{
+$errMSG = "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";  
+}
+		}
+	return $docphoto;
+}
+
+
+
+
+if(isset($_POST['save_category']))
+ {
+	 $id=$_POST['id'];
+	 $c=new cls_category();
+	 $c->id=$id;
+	 $c->category_name=$_POST['category_name'];
+     $c->category_icon=upload_Doc_Photo();
+	 if($id > 0){
+		 $c->update_category($c);
+	 }else{
+		 $c->save_category($c);
+	 }
+ }
+ 
+ /** // SAVE CATEGORY **/
+
 
 if($_SERVER["REQUEST_METHOD"]=="POST")
 {
+
+	if(isset($_POST['add-state']))
+	{
+		$id=$_POST['StCode'];
+		$c=new cls_state();
+		$c->StCode=$id;
+		$c->StateName=$_POST['state'];
+		if($id > 0){
+			$c->update($c);
+		}else{
+			$c->save($c);
+			
+		}
+	}
+
+	if(isset($_POST['add-dis']))
+	{
+		
+		$id=$_POST['DistCode'];
+		$c=new cls_dis();
+		$c->DistCode=$id;
+		$c->StCode=$_POST['stcode'];
+		$c->DistrictName=$_POST['DistrictName'];
+		if($id > 0){
+			$c->update($c);
+		}else{
+			$c->save($c);
+			
+		}
+	}
+
+
 	//----- SAVE BRANCH -----//
 	if(isset($_POST['add-doctor']))
 	{
@@ -32,6 +116,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 		$B->timeing=$timeing;
 	 	$B->state=$state; 
 	 	$B->dis=$district;
+		$b->iconid=$icon;
 		if($id > 0){
 			$B->update_doctor($B);
 		}else{ 

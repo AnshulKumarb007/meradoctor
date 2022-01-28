@@ -113,6 +113,33 @@ if($userd->utype<2){
 		    </div>
 
 		  </div>
+
+
+      <div class="form-group row">
+                        <label class="col-sm-3 control-label">Icon</label>
+                        <div class="col-sm-8">
+                           <div class="input-group date">
+                                <select name="icon" class="form-control">
+                                    <option value="">--select icon--</option>
+                                    <?php  $sql="select * from tbl_category order by id DESC";
+                                           $result=$conn->query($sql);
+                                           if($result){
+                                              while($list=$result->fetch_assoc()){?>
+                      <option  value="<?=$list['id']?>" <?php if($a->iconid==$list['id']) echo'selected';?> ><?=$list['category_name']?></option>";
+                                            <?php  }
+                                           }
+                                    ?>
+                                </select>
+                           </div>
+                        </div>
+                    </div>    
+
+
+
+
+
+
+
 				<?php } ?>
 				<div class="form-group row">
 
