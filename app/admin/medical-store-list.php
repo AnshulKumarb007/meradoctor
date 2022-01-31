@@ -1,5 +1,5 @@
 <?php include "header.php";
-	if(type3){
+	if($userd->utype){
 ?>
 
 <main class="app-content">
@@ -47,7 +47,7 @@
 					<td><?=$list['mobile'];?></td> 
 					<td><?=$list['timing'];?></td> 
 					<td><?=$dposition;?></td> 
-					 <?php 	if($user_type==1){?>
+					 <?php 	if($userd->utype==1){?>
 					<td> <a href="add-shop.php?ediit=<?=$list['id'];?>"><i class="fa fa-fw fa-lg fa-edit"></i></a></td>
 				 	<?php }else{echo"<td> - </td>";}?>
 					</tr>

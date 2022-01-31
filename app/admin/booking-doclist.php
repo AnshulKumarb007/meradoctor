@@ -1,10 +1,9 @@
 <?php include "header.php";
-	if(type3){
-
+	if($userd->utype<2){
 
 ?>
 
-<main class="app-content">
+ 
   <div class="app-title">
     <div>
       <h1><i class="fa fa-user-md"></i>Booking List</h1>
@@ -33,9 +32,9 @@
 				<tbody>
 				<?php  
 				$sr=1;
-				if($user_type==2){
+				if($userd->utype==2){
 					$sql="SELECT a.*,b.dname as doctorname,a.id as bid FROM  `tbl_docbook` as a inner join tbl_doctor as b on a.doctorid=b.id where a.doctorid=$login_user_id";
-				}else if($user_type==6){
+				}else if($userd->utype==6){
                       $sql="SELECT a.*,b.dname as doctorname,a.id as bid FROM  `tbl_docbook` as a inner join tbl_doctor as b on a.doctorid=b.id where b.dis=$district";  
      
                 }else{
@@ -72,7 +71,7 @@
 	  </div>
 	</div>
   </div>
-</main>
+ 
 
 
 

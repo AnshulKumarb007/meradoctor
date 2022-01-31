@@ -1,8 +1,7 @@
 <?php include "header.php";
-	if(type3){
+if($userd->utype<2){
 ?>
 
-<main class="app-content">
   <div class="app-title">
     <div>
       <h1><i class="fa fa-user-md"></i>Booking List</h1>
@@ -52,7 +51,6 @@
 	  </div>
 	</div>
   </div>
-</main>
 
 
 

@@ -34,7 +34,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 	}
 	
 	if (isset($_REQUEST['doctor'])) {
-		include '../include/cls_doctor.php';
+		include 'include/cls_doctor.php';
 		$doc = new cls_doctor();
 
 		//pessonal
@@ -70,11 +70,11 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 			
 		if($doc->id==0)
 			if(empty($doc->dcategory)){
-	$sql = "INSERT INTO `tbl_doctor`(`doctorname`,`gender`,photo,`exprince`,`ddetails`,`fee`,`timeing`,`email`,`mobile`,`staffmobile`,`state`,`district`,`address`,`booking`,`premiummember`) VALUES (	'$doc->doctorname',$doc->gender,'$doc->photo','$doc->exprince','$doc->ddetails','$doc->fee','$doc->timeing','$doc->email','$doc->mobile','$doc->staffmobile','$doc->state','$doc->district','$doc->address','$doc->booking','$doc->premiummember')";
+	$sql = "INSERT INTO `tbl_doctor`(`doctorname`,`gender`,photo,`exprince`,`ddetails`,`fee`,`timeing`,`email`,`mobile`,`staffmobile`,`state`,`district`,`address`,`booking`,`premiummember`,`iconid`) VALUES (	'$doc->doctorname',$doc->gender,'$doc->photo','$doc->exprince','$doc->ddetails','$doc->fee','$doc->timeing','$doc->email','$doc->mobile','$doc->staffmobile','$doc->state','$doc->district','$doc->address','$doc->booking','$doc->premiummember',$doc->iconid)";
 	}
-	else{
-		$sql = "INSERT INTO `tbl_doctor`(`doctorname`,`gender`,photo,dcategory,`exprince`,`ddetails`,`fee`,`timeing`,`email`,`mobile`,`staffmobile`,`state`,`district`,`address`,`booking`,`premiummember`) VALUES ('$doc->doctorname',$doc->gender,'$doc->photo',$doc->dcategory,'$doc->exprince','$doc->ddetails','$doc->fee','$doc->timeing','$doc->email','$doc->mobile','$doc->staffmobile','$doc->state','$doc->district','$doc->address','$doc->booking','$doc->premiummember')";
-}
+		else{
+		$sql = "INSERT INTO `tbl_doctor`(`doctorname`,`gender`,photo,dcategory,`exprince`,`ddetails`,`fee`,`timeing`,`email`,`mobile`,`staffmobile`,`state`,`district`,`address`,`booking`,`premiummember`,`iconid`) VALUES ('$doc->doctorname',$doc->gender,'$doc->photo',$doc->dcategory,'$doc->exprince','$doc->ddetails','$doc->fee','$doc->timeing','$doc->email','$doc->mobile','$doc->staffmobile','$doc->state','$doc->district','$doc->address','$doc->booking','$doc->premiummember',$doc->iconid)";
+		}
 	else
 	if(empty($doc->dcategory)){
 		//for sp. Doctor
@@ -84,8 +84,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST")
 		//for sp. Doctor
 		$sql = "";
 	}
-	include "../include/conn.php";
-
+	include "include/conn.php";
 	if($conn->query($sql))
 	{
 		header("location:doctor.php");	

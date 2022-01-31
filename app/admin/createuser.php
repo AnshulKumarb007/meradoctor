@@ -1,5 +1,5 @@
 <?php include "header.php";
-if(type3){
+if($userd->utype<2){
 $newuser=new clsusertype();
 	if(isset($_GET['id'])){
 		$id=$_GET['id'];
@@ -49,9 +49,7 @@ $('#city').html('<option value="">--Select Block First--</option>');
  
  
  
- 
- 
-<main class="app-content">
+  
       <div class="app-title">
         <div>
           <h1><i class="fa fa-users"> </i> Create User</h1>
@@ -195,9 +193,7 @@ if($type==1){$typex="Admin";}elseif($type==2){$typex="Branch";}elseif($type==3){
           </div>
         </div>
       </div>
-	
-	
-	</main>
+ 
 <?php include "footer.php";}else{
 	echo "<script>alert('You Are Not a Member');document.location='../index.php'</script>";
 } ?>

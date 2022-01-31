@@ -1,8 +1,8 @@
 <?php include "header.php";
-	if(type3){
+	if($userd->utype<2){
 ?>
 
-<main class="app-content">
+ 
   <div class="app-title">
     <div>
       <h1><i class="fa fa-user-md"></i> Camp List</h1>
@@ -29,11 +29,7 @@
 				<tbody>
 				<?php  
 				$sr=1;
-				if($user_type==6){
 				$sql="SELECT * FROM  `tbl_camp`";
-				}else{
-				    $sql="SELECT * FROM  `tbl_camp` where dis=$district";
-				}
 				$result=$conn->query($sql);
 				while($list=$result->fetch_assoc()){
 					  
@@ -46,9 +42,8 @@
 					<td><?=$list['orgnser_mobile'];?></td> 
 					<td><?=$list['date'];?></td> 
 					<td><?=$list['day'];?></td>  
-					 <?php 	if($user_type==1){?>
 					<td> <a href="add-camp.php?ediit=<?=$list['id'];?>"><i class="fa fa-fw fa-lg fa-edit"></i></a> <a href="delete.php?id=<?=$list['id'];?>&&table=tbl_camp&&page=camp-list.php" onClick="return confirm('Are  You Sure');"><i class="fa fa-fw fa-lg fa-trash text-danger"></i></a></td>
-				 <?php }else{echo"<td> - </td>";}?>
+				 
 					</tr>
 				<?php } ?>
 						 
@@ -59,7 +54,7 @@
 	  </div>
 	</div>
   </div>
-</main>
+ 
 
 
 

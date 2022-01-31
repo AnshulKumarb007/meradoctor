@@ -1,8 +1,7 @@
 <?php include "header.php";
-	if(type3){
+	 if($userd->utype<2){
 ?>
 
-<main class="app-content">
   <div class="app-title">
     <div>
       <h1><i class="fa fa-user-md"></i> Pathology List</h1>
@@ -29,7 +28,7 @@
 				<tbody>
 				<?php  
 				$sr=1;
-			 if($user_type==6){
+			 if($userd->utype==6){
 				$sql="SELECT * FROM  `tbl_pathlogy` where district=$district";}
 				else{
 				   	$sql="SELECT * FROM  `tbl_pathlogy`"; 
@@ -49,9 +48,9 @@
 					<td><?=$list['pname'];?></td>
 					<td><?=$list['cperson'];?></td> 
 					<td><?=$list['mobile'];?></td> 
-					<?php 	if($user_type==1){?>
+					 
 					<td> <a href="add-pathology.php?ediit=<?=$list['id'];?>"><i class="fa fa-fw fa-lg fa-edit"></i></a>   <a href="delete.php?id=<?=$list['id'];?>&&table=tbl_pathlogy&&page=pathology-list.php" onClick="return confirm('Are  You Sure');"><i class="fa fa-fw fa-lg fa-trash text-danger"></i></a> </td>
-				 	<?php }else{echo"<td> - </td>";}?>
+				  
 					</tr>
 				<?php } ?>
 						 
@@ -62,7 +61,7 @@
 	  </div>
 	</div>
   </div>
-</main>
+ 
 
 
 

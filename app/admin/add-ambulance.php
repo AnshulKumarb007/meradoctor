@@ -3,8 +3,7 @@
     include "include/cls_show.php";
  
   $a = new cls_magency();
-	if(type2){
-
+  if($userd->utype<2){
 		if(isset($_GET['ediit'])){
 
 		  $sql="SELECT * FROM  `tbl_ambulance` WHERE id=$_GET[ediit]";
@@ -19,12 +18,12 @@
             $a->dis=$list['dis'];
              
 		}else{
-		    if($user_type==6){ $a->dis=$district;}else{$a->dis=$district='';}
+		    if($userd->utype==6){ $a->dis=$district;}else{$a->dis=$district='';}
 		}
 ?>
   
  
-<main class="app-content">
+ 
       <div class="app-title">
         <div>
           <h1><i class="fa fa-flask"> </i> Add Ambulance</h1>
@@ -175,7 +174,7 @@
       </div>
   
   	  </div> 
-</main>
+
 <?php 
  
 include "footer.php";

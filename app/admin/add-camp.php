@@ -3,7 +3,7 @@
     include "include/cls_show.php";
  
   $a = new cls_camp();
-	if(type2){
+	if($userd->utype<2){
 
 		if(isset($_GET['ediit'])){
 
@@ -23,13 +23,11 @@
             $a->state=$list['state'];
             $a->dis=$list['dis'];
             $a->address=$list['address'];
-		}else{
-		    if($user_type==6){ $a->dis=$district;}else{$a->dis=$district='';}
 		}
 ?>
  
  
-<main class="app-content">
+ 
       <div class="app-title">
         <div>
           <h1><i class="fa fa-flask"> </i> Add Camp</h1>
@@ -230,7 +228,7 @@
       </div>
   
   	  </div> 
-</main>
+ 
 <?php 
  
 include "footer.php";

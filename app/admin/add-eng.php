@@ -1,7 +1,7 @@
 <?php 
 	include "header.php"; 
   include "include/cls_eng.php";
-	if(type2){
+  if($userd->utype<2){
 	$a = new cls_eng();	 
 		if(isset($_GET['ediit'])){
 		$sql="SELECT * FROM `tbl_engneers` WHERE id=$_GET[ediit]";
@@ -16,7 +16,6 @@
 ?>
   
  
-<main class="app-content">
       <div class="app-title">
         <div>
           <h1><i class="fa fa-user"> </i> Add Service Engnner</h1>
@@ -123,7 +122,7 @@
 	</div>
   </div>
   
-</main>
+
 <?php 
  
 include "footer.php";

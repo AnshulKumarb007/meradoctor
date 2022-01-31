@@ -38,6 +38,9 @@
 	 
 	 public $iconid;
 
+	 public $premiummember;
+	 public $booking;
+
 
 
 

@@ -2,7 +2,7 @@
 	include "header.php"; 
 	include "include/cls_pathlogy.php";
   $a = new cls_pathlogy();
-	if(type2){
+  if($userd->utype<2){
 
 		if(isset($_GET['ediit'])){
 
@@ -21,12 +21,12 @@
             $a->category=$list['category'];
             $a->timeing=$list['timeing'];
 		}else{
-		    if($user_type==6){ $a->district=$district;}else{$a->dis=$district='';}
+		    if($userd->utype==6){ $a->district=$district;}else{$a->dis=$district='';}
 		}
 ?>
   
  
-<main class="app-content">
+
       <div class="app-title">
         <div>
           <h1><i class="fa fa-flask"> </i> Add Helth Checkup</h1>
@@ -194,7 +194,6 @@
       </div>
   
   	  </div> 
-</main>
 <?php 
  
 include "footer.php";

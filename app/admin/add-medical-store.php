@@ -1,8 +1,8 @@
 <?php 
 	include "header.php"; 
-	include "include/cls_service.php";
-  $a = new cls_service();
-	if(type2){
+	// include "cls_service.php";
+  //$a = new cls_service();
+  if($userd->utype<2){
 
 		if(isset($_GET['ediit'])){
 
@@ -17,7 +17,7 @@
 ?>
   
  
-<main class="app-content">
+ 
       <div class="app-title">
         <div>
           <h1><i class="fa fa-medkit"> </i> Add Medical Store</h1>
@@ -94,7 +94,7 @@
   	  </div>
 
   
-</main>
+ 
 <?php 
  
 include "footer.php";

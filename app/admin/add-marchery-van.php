@@ -1,9 +1,8 @@
 <?php 
 	include "header.php"; 
-	include "include/cls_service.php";
-  $a = new cls_service();
-	if(type2){
-
+	//include "include/cls_service.php";
+  //$a = new cls_service();
+  if($userd->utype<2){
 		if(isset($_GET['ediit'])){
 
 		  $sql="SELECT * FROM  `tbl_service` WHERE id=$_GET[ediit]";
@@ -17,7 +16,6 @@
 ?>
   
  
-<main class="app-content">
       <div class="app-title">
         <div>
           <h1><i class="fa fa-ambulance"> </i> Add Marchery</h1>
@@ -94,7 +92,7 @@
   	  </div>
 
   
-</main>
+ 
 <?php 
  
 include "footer.php";

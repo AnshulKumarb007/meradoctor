@@ -3,7 +3,7 @@
    // include "include/cls_slider.php";
  
  // $a = new cls_slider();
-	if(type2){
+	if($userd->utype){
         $catid='';
 		if(isset($_GET['ediit'])){
 
@@ -18,7 +18,7 @@
 ?>
  
  
-<main class="app-content">
+ 
       <div class="app-title">
         <div>
           <h1><i class="fa fa-flask"> </i> Add Camp</h1>
@@ -102,7 +102,7 @@
       </div>
   
   	  </div> 
-</main>
+ 
 <?php 
  
 include "footer.php";

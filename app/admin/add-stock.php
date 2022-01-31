@@ -11,15 +11,10 @@ $sql="select * from tbl_stocks where id=$id";
  $p->date=$row['cdate'];
  $p->id=$row['id'];
 }
-
-
-
-
-
-
+ 
 
 ?>
-    <main class="app-content">
+  
       <div class="app-title">
         <div>
           <h1><i class="fa fa-edit"></i> Stock</h1>
@@ -80,7 +75,7 @@ $sql="select * from tbl_stocks where id=$id";
          
         
       </div>
-    </main>
+ 
 
 
     <?php include "footer.php";?>

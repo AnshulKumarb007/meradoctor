@@ -1,6 +1,6 @@
 <?php 
 	include "header.php"; 
-	if(type2){
+	if($userd->utype){
 	$a='';	 
 		if(isset($_GET['id'])){
 		$sql="SELECT * FROM `opening_account` WHERE id=$_GET[id]";
@@ -128,7 +128,7 @@
 	</div>
   </div>
   
-</main>
+ 
 <?php 
  
 include "footer.php";

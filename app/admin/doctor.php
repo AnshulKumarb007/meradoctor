@@ -1,15 +1,47 @@
 <?php 
 include "header.php";
 include "include/cls_doctor.php";
+if($userd->utype<2){
 $a=new cls_doctor();
 $sp=0;
 $Title="Doctor";
 if(isset($_GET['sp'])){
 	$sp=1;
 	$Title="Sp.Doctor";
-	
 }
-if($userd->utype<2){
+
+if(isset($_GET['ediit'])){
+
+
+
+  $sql="SELECT * FROM  `tbl_doctor` WHERE id=$_GET[ediit]";
+
+  $list=mysqli_fetch_assoc($conn->query($sql));
+
+  $a->id=$list['id']; 
+
+  $a->dname=$list['dname'];
+  $a->gender=$list['gender'];
+  $a->dcategory=$list['dcategory'];
+  $a->dposition=$list['dposition'];
+  $a->exp=$list['exp'];
+  $a->ddetails=$list['ddetails'];
+  $a->email=$list['email'];
+  $a->mobile=$list['mobile'];
+  $a->staffmobile=$list['staffmobile'];
+  $a->address=$list['address'];
+  $a->fee=$list['fee'];
+  $a->timeing=$list['timeing'];
+  $a->state=$list['state'];
+  $a->dis=$list['dis'];
+
+}else{
+    if($userd->utype==6){ $a->dis=$district;}else{$a->dis=$district='';}
+}
+
+
+
+
 ?>
  <div class="app-title">
         <div>

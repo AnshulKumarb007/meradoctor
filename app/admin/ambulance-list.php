@@ -1,8 +1,8 @@
 <?php include "header.php";
-	if(type3){
+if($userd->utype<2){
 ?>
 
-<main class="app-content">
+ 
   <div class="app-title">
     <div>
       <h1><i class="fa fa-user-md"></i> Ambulance  List</h1>
@@ -29,7 +29,7 @@
 				<tbody>
 				<?php  
 				$sr=1;
-				 if($user_type==6){
+				 if($userd->utype==6){
 				$sql="SELECT * FROM  `tbl_ambulance` where dis=$district";}
 				else{
 				 	$sql="SELECT * FROM  `tbl_ambulance`";
@@ -45,7 +45,7 @@
 					<td><?=$list['mobile'];?></td> 
 					<td><?=$list['timing'];?></td>  
 				 
-					  <?php 	if($user_type==1){?>
+					  <?php 	if($userd->utype==1){?>
 					<td> <a href="add-ambulance.php?ediit=<?=$list['id'];?>"><i class="fa fa-fw fa-lg fa-edit"></i></a> <a href="delete.php?id=<?=$list['id'];?>&&table=tbl_ambulance&&page=ambulance-list.php" onClick="return confirm('Are  You Sure');"><i class="fa fa-fw fa-lg fa-trash text-danger"></i></a></td>
 				 <?php }else{echo"<td> - </td>";}?>
 					</tr>
@@ -58,7 +58,7 @@
 	  </div>
 	</div>
   </div>
-</main>
+ 
 
 
 

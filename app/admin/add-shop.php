@@ -3,7 +3,7 @@
     include "include/cls_show.php";
  
   $a = new cls_shop();
-	if(type2){
+  if($userd->utype<2){
 
 		if(isset($_GET['ediit'])){
 
@@ -24,12 +24,12 @@
             $a->dposition=$list['dposition'];
 
 		}else{
-		    if($user_type==6){ $a->dis=$district;}else{$a->dis=$district='';}
+		    if($userd->utype==6){ $a->dis=$district;}else{$a->dis=$district='';}
 		}
 ?>
   
  
-<main class="app-content">
+ 
       <div class="app-title">
         <div>
           <h1><i class="fa fa-flask"> </i> Add Medical</h1>
@@ -220,7 +220,7 @@
       </div>
   
   	  </div> 
-</main>
+ 
 <?php 
  
 include "footer.php";

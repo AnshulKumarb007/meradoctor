@@ -1,10 +1,19 @@
-<?php include "header.php"; 
-	if(type3){ 
+<?php 
+include "header.php";
+include "include/cls_doctor.php";
+$a=new cls_doctor();
+$sp=0;
+$Title="Doctor";
+if(isset($_GET['sp'])){
+	$sp=1;
+	$Title="Sp.Doctor";
+	
+}
+if($userd->utype<2){
 ?>
 
 
 
-<main class="app-content">
 
   <div class="app-title">
 
@@ -63,16 +72,16 @@
 				<?php  
 
 				$sr=1;
-                 if($user_type==6){
-				    	$sql="SELECT `id`, `dname`, `gender`, `dcategory`, `dposition`, `exp`, `ddetails`, `email`, `mobile`, `staffmobile`, `address`, `status`, `Image`, `fee`, `timeing`, d.DistrictName,s.StateName FROM  tbl_doctor doc 
-LEFT join  district d on doc.dis= d.DistCode
-LEFT join state s on doc.state=s.StCode where doc.dis=$district";
-				}else{ 
+//                  if($user_type==6){
+// 				    	$sql="SELECT `id`, `dname`, `gender`, `dcategory`, `dposition`, `exp`, `ddetails`, `email`, `mobile`, `staffmobile`, `address`, `status`, `Image`, `fee`, `timeing`, d.DistrictName,s.StateName FROM  tbl_doctor doc 
+// LEFT join  district d on doc.dis= d.DistCode
+// LEFT join state s on doc.state=s.StCode where doc.dis=$district";
+// 				}else{ 
 				$sql="SELECT `id`, `dname`, `gender`, `dcategory`, `dposition`, `exp`, `ddetails`, `email`, `mobile`, `staffmobile`, `address`, `status`, `Image`, `fee`, `timeing`, d.DistrictName,s.StateName FROM  tbl_doctor doc 
 LEFT join  district d on doc.dis= d.DistCode
 LEFT join state s on doc.state=s.StCode";
 
-}
+// }
 				$result=$conn->query($sql);
 
 				while($list=$result->fetch_assoc()){
@@ -125,7 +134,7 @@ LEFT join state s on doc.state=s.StCode";
 					<td><?=$list['timeing'];?></td>
 					<td><?=$list['DistrictName'];?></td>
 					<td><?=$list['StateName'];?></td>
-                     <?php 	if($user_type==1){?>
+                     <?php 	if(isset($user_type)){?>
 					<td class='text-center'><a href="add-doctor.php?ediit=<?=$list['id'];?>"><i class="fa fa-fw fa-lg fa-edit"></i></a>   <a href="delete.php?id=<?=$list['id'];?>&&table=tbl_doctor&&page=doctor-list.php" onClick="return confirm('Are  You Sure');"><i class="fa fa-fw fa-lg fa-trash text-danger"></i></a></td>
 	                <?php }else{echo"<td> - </td>";}?>
 				 
@@ -156,7 +165,6 @@ LEFT join state s on doc.state=s.StCode";
 
   </div>
 
-</main>
 
 
 
