@@ -119,7 +119,7 @@ LEFT join state s on doc.state=s.StCode";
 
 					<td><?=$list['dcategory'];?></td>
 
-					<td><?=$dposition;?></td>
+					<td><?=$dposition??'NA';?></td>
 
 					<td><?=$list['exp'];?></td> 
 					<td><?=$list['ddetails'];?></td>

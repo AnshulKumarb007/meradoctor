@@ -46,11 +46,11 @@ if($userd->utype==0){ ?>
             <li><a class="treeview-item" href="doctor.php?sp"><i class="icon fa fa-circle-o"></i> Sp. Doctors</a></li>
 			
 			<li>
-        <a class="treeview-item" href="Doctor-list.php"> <i class="icon fa fa-circle-o"></i> <span class="app-menu__label"> Doctor List</span></a>
+        <a class="treeview-item" href="doctor-list.php"> <i class="icon fa fa-circle-o"></i> <span class="app-menu__label"> Doctor List</span></a>
         </li>
 		
 		<li>
-        <a class="treeview-item" href="Doctor-list.php?sp=1"> <i class="icon fa fa-circle-o"></i>  <span class="app-menu__label"> Special Doctor List</span></a>
+        <a class="treeview-item" href="doctor-list.php?sp=1"> <i class="icon fa fa-circle-o"></i>  <span class="app-menu__label"> Special Doctor List</span></a>
         </li>
 		
             <li><a class="treeview-item" href="#"><i class="icon fa fa-circle-o"></i> Clinic & Hospital</a></li>
